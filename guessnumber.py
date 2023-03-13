@@ -11,9 +11,10 @@ while True:
     n += 1
     if guess == ans:
         print('終於猜對了')
+        print('你猜了', n, '次')
         break
     elif guess < ans:
         print('比答案小，猜大點')
     elif guess > ans:
         print('比答案大，猜小點')
-print('你猜了', n, '次')
+    print('你猜了', n, '次')
